@@ -1,0 +1,20 @@
+{
+  "appId": "com.repatriement.pieces",
+  "productName": "Gestion Rapatriements",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "main.cjs",
+    "preload.cjs"
+  ],
+  "extraResources": [
+    {
+      "from": "../pwa/dist",
+      "to": "app"
+    }
+  ],
+  "win": {
+    "target": "nsis"
+  }
+}
